@@ -1,0 +1,51 @@
+<html>
+<body>
+    <div style = "background-color:black; color:white; padding:20px;">
+        <h2>Block elements</h2>
+        <p>Block elements start on a new line and are always add some space before and after the element.</p>
+        <p>Block elements are a little different from inline elements.</p>
+        <p>Block elements take up all the available width before moving to the next line. It adjusts to the width of the page.</p>
+        <p>To center align the block element, use width and margin:auto with style inside div like done here: </p>
+        <div style = "background-color:powderblue; color:black; padding:20px; width:200px; margin:auto">
+            <p>Some examples of block elements areee:</p>
+            <p><ul style = "list-style-type:disc;">
+                <li>div</li>
+                <li>address</li>
+                <li>dd</li>
+                <li>dt</li>
+                <li>header</li>
+                <li>pre</li>
+            </ul></p>
+            <p>For more examples of block elements look at: <a href= "https://www.w3schools.com/html/html_blocks.asp" target = "_blank" title="block & inline elements" style ="color:rgb(153, 12, 110)"> Block elements</a></p>
+        </div> 
+        <p>The div element defines a division or a section in an HTML document.</p>
+        <p>The div element is often used as a container for other HTML elements.</p>
+        <p>When used together with CSS, the div element can be used to style blocks of content like used here.</p>
+        <p>If width and margin:auto are not used, then it would look like the inline example below.</p>
+    </div>
+    <div style = "background-color:rgb(142, 17, 17); color:white; padding:20px;">
+        <h2>Inline elements</h2>
+        <p>Inline elements do not start on a new line.</p>
+        <p>They continue on the same line that they are used on.</p>
+        <p>Inline elements are almost the same of block elements except for the fact that they do not start on a new line</p>
+        <p>Inline elements take up as much width as necessary unlike block elements that take up the entire width available.</p>
+        <div style = "background-color:powderblue ; color:black; padding:20px;">
+            <p>Some examples of inline elements are:</p>
+            <p><ul style = "list-style-type:disc;">
+                <li>span</li>
+                <li>a</li>
+                <li>time</li>
+                <li>input</li>
+                <li>map</li>
+                <li>abbr</li>
+            </ul></p>
+            <p>For more examples of inline elements look at: <a href= "https://www.w3schools.com/html/html_blocks.asp" target = "_blank" title="block & inline elements" style ="color:rgb(153, 12, 110)"> inline elements</a></p>
+        </div>
+        <p>The span element defines a division or a section in an HTML document.</p>
+        <p>When used together with CSS, the span element can be used to style the span element like:</p>
+        <div style = "background-color:bisque; color:black; padding:20px;">
+            This sentence is using <span style = "background-color:rgb(45, 212, 123); color:black"><i>span</i></span> to add style like font and color and highlight the element inside span(span here).
+        </div>  
+    </div>
+</body>
+</html>
